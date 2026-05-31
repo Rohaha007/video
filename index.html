@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO</title>
+    <link rel="icon" href="/Image/setec-logo.png">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #e5e9ee;
+            font-family: Agency FB;
+            font-size: 25px;
+            height: auto;
+            overflow: hidden;
+        }
+        .all {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .background {
+            position: relative;
+            background-color: #1f5793;
+            color: white;
+            width: 100%;
+            height: 800px;
+            border: 7px double #ec1c00;
+            display: flex;          
+            justify-content: space-around; 
+            align-items: center;     
+        }
+        .home {
+            position: absolute; 
+            text-align: center;
+            justify-content: center;
+            top: 20px;        
+            left: 20px;        
+            background-color: #ec1c00;
+            width: 90px;
+            height: 32px;
+            color: white;
+            border-radius: 8px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .home:hover {
+            transition: all .25s ease-in;
+            background-color: #ff6955;
+            transform: scale(1.2);
+            left: 30px;
+            top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+   <div class="background">
+        <a href="https://rohaha007.github.io/home/" class="home">🏠︎ Home</a>  
+        <img src="/Image/dog.jpg" width="200px">
+        <div class="video">
+            <video width="400" autoplay controls loop style="border: 7px double #ff6955;">
+                <source src="/Image/video.MP4" type="video/mp4">
+            </video>
+        </div>
+        <img src="/Image/cat.jpg" width="200px">
+    </div>
+</body>
+</html>
